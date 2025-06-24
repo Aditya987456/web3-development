@@ -1,0 +1,24 @@
+{
+  "name": "web3-w2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.3.0",
+    "@solana/web3.js": "^1.98.2",
+    "tweetnacl": "^1.0.3"
+  }
+}
